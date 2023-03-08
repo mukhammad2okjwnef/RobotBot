@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: #222;
+}
+
+.nav {
+
+    width: 100%;
+    position: fixed;
+    background-color: #221;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    top: 0%;
+    left: 0%;
+    box-shadow: 2px 2px 5px #221;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.logo {}
+
+.nav p {
+    margin-left: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.308);
+}
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header {
+    background-image: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 30px;
+}
+
+.header h1 {
+    color: #4E4E4E;
+    font-size: 100px;
+
+}
+
+.header p {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #4E4E4E;
+}
+
+.submit {
+    text-decoration: none;
+    text-align: center;
+    max-width: 200px;
+    display: block;
+    margin-top: 40px;
+    color: white;
+    padding: 20px;
+    background: rgb(17, 196, 232);
+    background: linear-gradient(90deg, rgba(17, 196, 232, 1) 35%, rgba(8, 213, 190, 1) 98%);
+
+}
+
+.info_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+
+}
+
+.card img {
+    height: 100px;
+
+}
+
+.card p {
+    color: rgb(17, 196, 232);
+    font-size: 25px;
+}
+
+.games_wrapper {
+    min-height: 100vh;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    padding: 40px 20px;
+}
+
+.games_wrapper h2 {
+    text-align: center;
+    color: rgb(17, 196, 232);
+    font-size: 35px;
+    margin-bottom: 50px;
+
+}
+
+.articles {
+    display: flex;
+
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+.articles img {
+    width: 100%;
+}
+
+.titles {
+    font-size: 30px;
+    color: rgba(8, 213, 190, 1);
+
+}
+
+.games hr {
+    background-color: rgba(8, 213, 190, 1);
+    width: 100px;
+    height: 3px;
+    border: none;
+    margin: 20px 0;
+}
+
+.articles p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.flipped {
+    flex-direction: row-reverse;
+
+}
+
+.flipped .left {
+    padding-left: 20px;
+}
+
+.signup_wrapper {
+    margin-bottom: 40px;
+}
+
+.sign_up h2 {
+    text-align: center;
+    color: rgb(17, 196, 232);
+    font-size: 40px;
+    margin-bottom: 100px;
+
+}
+
+.compete p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.join {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    padding: 40px;
+}
+.join h2 {
+    text-align: center;
+    margin: 0 0 32px;
+}
+.sign_up hr {
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 40px;
+
+}
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(17, 196, 232);
+}
+.button a {
+    color: white;
+    padding: 10px 30px;
+    background-color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.sign_up a:hover {
+    font-size: 25px;
+}
+
+.button p {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+.form_wrapper {
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    min-height: 50vh;
+    padding: 30px;
+    color: white;
+}
+fieldset {
+    padding: 20px;
+    
+}
+.names input {
+    
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: #222;
+    outline: none;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px  solid white;
+    margin-bottom: 10px;
+}
+.names label {
+    position: absolute;
+    
+}
+.gender p {
+    margin:30px 0;
+}
+.gender label {
+    margin: 0 30px 0 5px;
+}
+.age label {
+    margin-left: 5px;
+}
+.games label{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    height: 30%;
+    background: none;
+}
+form .submit {
+    margin: 20px auto;
+    width: 60%;
+    transition: 0.5s;
+}
+form .submit:hover {
+    transform: scale(1.1);
+}
