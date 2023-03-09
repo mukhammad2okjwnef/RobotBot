@@ -282,3 +282,17 @@ form .submit {
 form .submit:hover {
     transform: scale(1.1);
 }
+@media(max-width:769px){
+    .header {
+        background-position-x: 71%;
+    }
+    .header h1 {
+        font-size: 60px;
+    }
+    .card img{
+        height: 60px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+}
